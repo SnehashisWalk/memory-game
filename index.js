@@ -6,7 +6,7 @@ startBtn.addEventListener("click", function () {
     card.classList.remove("img-blur");
     card.addEventListener("click", flipCard);
   });
-  //   shuffle();
+    shuffle();
   startGame = true;
   startBtn.setAttribute("disabled", true);
 });
